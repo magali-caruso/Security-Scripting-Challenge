@@ -1,10 +1,10 @@
 # Security-Scripting-Challenge
 
-As a Security Operations Engineer, you have the challenge to stop internal information from reaching to unwanted recipients. There is a lot of valuable information gathered in Google Drive in all kind of file formats. 
+As a Security Operations Engineer, you face the challenge of preventing internal information from getting into the hands of unwanted recipients. Google Drive contains a lot of valuable information in various file formats. 
 
-There has been a lot of security incidents related to employees misconfiguring file permissions and allowing public access to internal files with corporate and PII information in it. 
+There have been several security breaches where employees have misconfigured file permissions, allowing public access to files containing sensitive information, like corporate and PII data. 
 
-We, as the Security Operations Team, want to scan each employee Google Drive account and get a list of all the files shared publicly (To anyone with the link) along with the employee name and email. After this we will ask each of them if the public-sharing is needed and then proceed to change the permissions accordingly. 
+To prevent such incidents, the Security Operations Team has decided to scan every employee's Google Drive account and generate a list of all files that are shared publicly (to anyone with the link), along with the employee's name and email address. The team will then reach out to each employee and ask them if such public sharing is necessary. Based on their response, the team will change the file permissions accordingly.
 
 ## The expected minimal deliverables are:
 1. A script code, coded in the language of your choice (preferebly Python), that scans a Google Drive account and gets all the files shared publicly with the following information: File Name, File Link, File Location, Owner Of the File.
