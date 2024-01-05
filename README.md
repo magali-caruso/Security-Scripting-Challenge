@@ -16,13 +16,15 @@ The alarm that monitors anamalous traffic is triggered and you need to respond t
 4. Execute the chosen response tactic via API.
    - The endpoint to the WAF API is the following: https://403d7dc8-4b36-4db5-98fe-bdabfedf3904.trayapp.io
    - The expected body is:
-   ```
-         data = {
-                "account-id": <integer>,
-                "ip-address": <string>,
-                "region": <string>
-               }
-    ```
+     
+      ```
+            data = {
+                   "account-id": <integer>,
+                   "ip-address": <string>,
+                   "region": <string>
+                  }
+       ```
+   
    - If you complete the ip-address parameter and region at the same time, the ip-address will be blocked and the region not. 
    - If you want to block a region, leave the ip-address parameter empty.
 
