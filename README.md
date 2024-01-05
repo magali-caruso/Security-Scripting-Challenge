@@ -5,7 +5,7 @@ As a Security Operations Engineer, you face the challenge of preventing Denial O
 The alarm that monitors anamalous traffic is triggered and you need to respond to the incident. 
 
 
-##Expected Goals
+## Expected Goals
 
 1. Get the information the traffic monitor provides via API.
    1.1 The monitor endpoint is the following: https://fbfac7f8-bafe-42c5-8c37-b1db396ab3ba.trayapp.io 
@@ -26,7 +26,7 @@ The alarm that monitors anamalous traffic is triggered and you need to respond t
    1.3 If you complete the ip-address parameter and region at the same time, the ip-address will be blocked and the region not. 
    1.4 If you want to block a region, leave the ip-address parameter empty.
 
-##Take into account
+## Take into account
 You can choose any programming language you want, python is preferred due to the hiring manager capabilities. 
 Questions are welcome. 
 Keep it simple, make it work. 
