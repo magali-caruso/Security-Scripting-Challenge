@@ -9,7 +9,7 @@ The alarm that monitors anamalous traffic is triggered and you need to respond t
 
 1. Get the information the traffic monitor provides via API.
    - The monitor endpoint is the following: https://fbfac7f8-bafe-42c5-8c37-b1db396ab3ba.trayapp.io 
-   - his endpoint will return a url to download the csv with the vpc-flow-logs, only via Browser.
+   - This endpoint will return a url to download the csv with the vpc-flow-logs, only via Browser.
 
 3. Analyze the content and determine how to block the traffic to stop the DOS attack.
   
