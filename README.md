@@ -8,12 +8,12 @@ The alarm that monitors anamalous traffic is triggered and you need to respond t
 ## Expected Goals
 
 1. Get the information the traffic monitor provides via API.
-   The monitor endpoint is the following: https://fbfac7f8-bafe-42c5-8c37-b1db396ab3ba.trayapp.io 
-   his endpoint will return a url to download the csv with the vpc-flow-logs, only via Browser.
+   - The monitor endpoint is the following: https://fbfac7f8-bafe-42c5-8c37-b1db396ab3ba.trayapp.io 
+   - his endpoint will return a url to download the csv with the vpc-flow-logs, only via Browser.
 
-2. Analyze the content and determine how to block the traffic to stop the DOS attack.
+3. Analyze the content and determine how to block the traffic to stop the DOS attack.
   
-3. Execute the chosen response tactic via API.
+4. Execute the chosen response tactic via API.
    The endpoint to the WAF API is the following: https://403d7dc8-4b36-4db5-98fe-bdabfedf3904.trayapp.io
    1.2 The expected body is:
    ```
