@@ -27,7 +27,7 @@ The alarm that monitors anamalous traffic is triggered and you need to respond t
                   }
        ```
    
-   - If you complete the ip-address parameter and country at the same time, the ip-address will be blocked and the region not. 
+   - If you complete the ip-address parameter and country at the same time, the ip-address will be blocked and the country not. 
    - If you want to block a region, leave the ip-address parameter empty.
 
 ## Take into account
